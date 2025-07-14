@@ -5,14 +5,12 @@ import { Header } from "@/components/Header"
 import { Sidebar } from "@/components/Sidebar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { useAuth } from "@/context/AuthContext"
 import { useAccessibility } from "@/context/AccessibilityContext"
 import { Keyboard, Mic, Volume2, Settings, Activity, Clock } from "lucide-react"
 import Link from "next/link"
 
 export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
-  const { userProfile } = useAuth()
   const { announceToScreenReader } = useAccessibility()
 
   const features = [
@@ -67,10 +65,7 @@ export default function Dashboard() {
               <h1 id="welcome-heading" className="text-3xl font-bold text-foreground mb-2">
                 Welcome to Abled
               </h1>
-              <p className="text-muted-foreground text-lg">
-                Your unified accessibility dashboard.{" "}
-                {userProfile?.role === "caregiver" && "Managing accessibility for your care recipients."}
-              </p>
+              <p className="text-muted-foreground text-lg">Your unified accessibility dashboard. </p>
             </section>
 
             {/* Quick Stats */}

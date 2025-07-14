@@ -3,7 +3,7 @@
 
 ---
 
-- [Live Demo]: comming soon!
+- [Live Demo](https://v0-abled-project-requirements.vercel.app/)
 
 ---
 

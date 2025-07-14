@@ -1,30 +1,66 @@
-# Abled Project Requirements
+# Project ABLED: Unified Accessibility Dashboard
+> **Empowering digital independence for differently-abled users through AI-powered accessibility tools.**
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+---
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/gaurav-aryas-projects/v0-abled-project-requirements)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/nCLzp7QzVJ9)
+- [Live Demo]: comming soon!
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## What is Abled?
 
-## Deployment
+**ABLED** is a cutting-edge accessibility platform built with **Next.js** and **TypeScript**, designed to empower individuals with visual, motor, and cognitive disabilities. It integrates assistive technologies like braille input, voice control, and a built-in screen reader, all in one beautiful, user-friendly dashboard.
 
-Your project is live at:
+---
 
-**[https://vercel.com/gaurav-aryas-projects/v0-abled-project-requirements](https://vercel.com/gaurav-aryas-projects/v0-abled-project-requirements)**
+## Key Features
 
-## Build your app
+### Braille Input
+- Custom virtual braille keyboard for screen navigation
+- Translates 6-dot braille patterns to live text
+- Real-time audio feedback
 
-Continue building your app on:
+### Voice Assistant
+- Navigate the entire app with natural voice commands
+- Powered by Web Speech API + LLMs (Ollama / OpenAI)
+- Responds intelligently to user intent
 
-**[https://v0.dev/chat/projects/nCLzp7QzVJ9](https://v0.dev/chat/projects/nCLzp7QzVJ9)**
+### Integrated Screen Reader
+- One-click "Read this page" button
+- ARIA-compliant with live voice narration
+- Keyboard-first navigation supported
 
-## How It Works
+### Accessibility Settings
+- Toggle dark/light mode
+- Adjust text size, color contrast
+- Save preferences to Firebase
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### Caregiver Dashboard (Role-based access)
+- View logs of sessions, voice commands, time saved
+- Monitor and manage patient interaction
+
+---
+
+## ⚙Tech Stack
+
+| Tech             | Role                        |
+|------------------|-----------------------------|
+| Next.js 14       | App framework (App Router)  |
+| TypeScript       | Type-safe development       |
+| Tailwind CSS     | Styling and responsiveness  |
+| Firebase         | Auth, Firestore, Hosting    |
+| Web Speech API   | Voice input/output          |
+| React Context    | Auth + Accessibility state  |
+| Ollama / OpenAI  | Voice command processing    |
+
+---
+
+## 📸 Screenshot
+<img width="1412" height="683" alt="image" src="https://github.com/user-attachments/assets/b6c27b97-e02a-4a81-9435-8e6a86326842" />
+
+
+---
+
+## 👥 Team
+**Built with ❤️ by Gaurav Arya**
+
